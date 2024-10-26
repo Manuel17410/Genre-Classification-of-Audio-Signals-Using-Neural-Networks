@@ -14,6 +14,8 @@ The primary goal of this project is to develop an audio classifier that accurate
 
 An example of waveform for each genre was visualized.
 
+![Example Image](images/Waveform.png)
+
 ## Data Preparation
 
 Depending on the model, different techniques to extract information from the data were used:
@@ -21,6 +23,8 @@ Depending on the model, different techniques to extract information from the dat
 MFCCs (Mel-frequency Cepstral Coefficients): to capture the power spectrum of an audio signal in a way that reflects how humans perceive sound.
 Extraction of Chroma Features ( represent the energy distribution of pitches (or notes) in an audio signal, focusing on the 12 distinct semitones of the octave), Spectral Contrast (measures the difference in amplitude between peaks and valleys in a sound spectrum, indicating the timbral texture of audio) and Tonnetz ( represent the harmonic relations and tonal centroid features of the audio signal, focusing on the relationships between pitch classes)
 Spectogram Extraction: it converts an audio signal from the time domain into a visual representation in the time-frequency domain.
+
+![Example Image](images/spectogram.png)
 
 ## Neural Network Building
 
